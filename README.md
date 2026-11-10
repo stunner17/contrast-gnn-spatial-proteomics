@@ -107,7 +107,7 @@ The PyG operator builds an E x F tensor of neighbour differences before averagin
 and writes only the N x F output. The backward pass is a second gather over the same CSR with no
 atomics, using the fact that tissue graphs are symmetric:
 
-$$\frac{\partial L}{\partial h_k} = \sum_{j \in N(k)} \operatorname{sign}(h_k - h_j)\left(\frac{g_k}{\deg_k} + \frac{g_j}{\deg_j}\right)$$
+$$\frac{\partial L}{\partial h_k} = \sum_{j \in N(k)} \mathrm{sign}(h_k - h_j)\left(\frac{g_k}{\deg_k} + \frac{g_j}{\deg_j}\right)$$
 
 Forward and gradient match PyG to a relative error below 3e-7 on random graphs with isolated nodes
 and on the full METABRIC graph. Timings are medians from `triton.testing.do_bench`, in fp32:
