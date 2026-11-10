@@ -1,0 +1,5 @@
+gpu,impl,ms_per_step,peak_GB,loss_first,loss_last
+H200 NVL,PyG scatter,49.226,5.478,6.074,5.292
+H200 NVL,fused Triton,11.617,2.574,6.073,5.275
+RTX PRO 6000 Blackwell,PyG scatter,57.659,5.431,6.074,5.294
+RTX PRO 6000 Blackwell,fused Triton,14.611,2.528,6.074,5.257

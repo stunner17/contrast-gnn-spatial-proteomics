@@ -1,0 +1,100 @@
+[
+ {
+  "endpoint": "DSS",
+  "features": "Clinical",
+  "cindex_mean": 0.7108908619981077,
+  "cindex_sd": 0.0037720536441302765,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "DSS",
+  "features": "Clinical + Mean",
+  "cindex_mean": 0.7085463877127756,
+  "cindex_sd": 0.003966392095442559,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "DSS",
+  "features": "Clinical + Mean+SD",
+  "cindex_mean": 0.7012888396142561,
+  "cindex_sd": 0.0051658554600695385,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "DSS",
+  "features": "Clinical + GRAD",
+  "cindex_mean": 0.6968837511588565,
+  "cindex_sd": 0.007755411484884054,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "DSS",
+  "comparison": "Clinical + Mean vs Clinical",
+  "delta_c": -0.00034407286698723283,
+  "p": 0.5357321339330335,
+  "p_holm": 1.0
+ },
+ {
+  "endpoint": "DSS",
+  "comparison": "Clinical + Mean+SD vs Clinical",
+  "delta_c": -0.0060308327519139615,
+  "p": 0.7231384307846077,
+  "p_holm": 1.0
+ },
+ {
+  "endpoint": "DSS",
+  "comparison": "Clinical + GRAD vs Clinical",
+  "delta_c": -0.008945894541666277,
+  "p": 0.7796101949025487,
+  "p_holm": 1.0
+ },
+ {
+  "endpoint": "OS",
+  "features": "Clinical",
+  "cindex_mean": 0.663761663014028,
+  "cindex_sd": 0.002871203808028458,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "OS",
+  "features": "Clinical + Mean",
+  "cindex_mean": 0.6694403602703878,
+  "cindex_sd": 0.006542795345586107,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "OS",
+  "features": "Clinical + Mean+SD",
+  "cindex_mean": 0.6628790190584515,
+  "cindex_sd": 0.008517783455251213,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "OS",
+  "features": "Clinical + GRAD",
+  "cindex_mean": 0.6588874709869522,
+  "cindex_sd": 0.006591159573518048,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "OS",
+  "comparison": "Clinical + Mean vs Clinical",
+  "delta_c": 0.007360760488621332,
+  "p": 0.22338830584707647,
+  "p_holm": 0.6701649175412294
+ },
+ {
+  "endpoint": "OS",
+  "comparison": "Clinical + Mean+SD vs Clinical",
+  "delta_c": 0.004336930488898827,
+  "p": 0.36281859070464767,
+  "p_holm": 0.7256371814092953
+ },
+ {
+  "endpoint": "OS",
+  "comparison": "Clinical + GRAD vs Clinical",
+  "delta_c": 0.0029036165746572085,
+  "p": 0.4217891054472764,
+  "p_holm": 0.7256371814092953
+ }
+]

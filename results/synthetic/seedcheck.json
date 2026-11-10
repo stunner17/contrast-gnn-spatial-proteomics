@@ -1,0 +1,182 @@
+[
+ {
+  "scenario": "V",
+  "model": "GCN",
+  "seed": 0,
+  "auc": 0.6531499999999999
+ },
+ {
+  "scenario": "V",
+  "model": "GCN",
+  "seed": 1,
+  "auc": 0.8097
+ },
+ {
+  "scenario": "V",
+  "model": "GCN",
+  "seed": 2,
+  "auc": 0.77395
+ },
+ {
+  "scenario": "V",
+  "model": "GCN [mean+SD pool]",
+  "seed": 0,
+  "auc": 0.9352
+ },
+ {
+  "scenario": "V",
+  "model": "GCN [mean+SD pool]",
+  "seed": 1,
+  "auc": 0.8216500000000001
+ },
+ {
+  "scenario": "V",
+  "model": "GCN [mean+SD pool]",
+  "seed": 2,
+  "auc": 0.8028000000000001
+ },
+ {
+  "scenario": "V",
+  "model": "SAGE",
+  "seed": 0,
+  "auc": 0.8417
+ },
+ {
+  "scenario": "V",
+  "model": "SAGE",
+  "seed": 1,
+  "auc": 0.9018
+ },
+ {
+  "scenario": "V",
+  "model": "SAGE",
+  "seed": 2,
+  "auc": 0.745
+ },
+ {
+  "scenario": "V",
+  "model": "PNA",
+  "seed": 0,
+  "auc": 0.8442999999999999
+ },
+ {
+  "scenario": "V",
+  "model": "PNA",
+  "seed": 1,
+  "auc": 0.9035500000000001
+ },
+ {
+  "scenario": "V",
+  "model": "PNA",
+  "seed": 2,
+  "auc": 0.8018
+ },
+ {
+  "scenario": "V",
+  "model": "Contrast-GNN",
+  "seed": 0,
+  "auc": 0.8688
+ },
+ {
+  "scenario": "V",
+  "model": "Contrast-GNN",
+  "seed": 1,
+  "auc": 0.8182999999999999
+ },
+ {
+  "scenario": "V",
+  "model": "Contrast-GNN",
+  "seed": 2,
+  "auc": 0.9213
+ },
+ {
+  "scenario": "M",
+  "model": "GCN",
+  "seed": 0,
+  "auc": 0.6620999999999999
+ },
+ {
+  "scenario": "M",
+  "model": "GCN",
+  "seed": 1,
+  "auc": 0.8726
+ },
+ {
+  "scenario": "M",
+  "model": "GCN",
+  "seed": 2,
+  "auc": 0.8116
+ },
+ {
+  "scenario": "M",
+  "model": "GCN [mean+SD pool]",
+  "seed": 0,
+  "auc": 0.9404
+ },
+ {
+  "scenario": "M",
+  "model": "GCN [mean+SD pool]",
+  "seed": 1,
+  "auc": 0.986
+ },
+ {
+  "scenario": "M",
+  "model": "GCN [mean+SD pool]",
+  "seed": 2,
+  "auc": 0.6874
+ },
+ {
+  "scenario": "M",
+  "model": "SAGE",
+  "seed": 0,
+  "auc": 0.8927
+ },
+ {
+  "scenario": "M",
+  "model": "SAGE",
+  "seed": 1,
+  "auc": 0.6714
+ },
+ {
+  "scenario": "M",
+  "model": "SAGE",
+  "seed": 2,
+  "auc": 0.8238
+ },
+ {
+  "scenario": "M",
+  "model": "PNA",
+  "seed": 0,
+  "auc": 0.8109999999999999
+ },
+ {
+  "scenario": "M",
+  "model": "PNA",
+  "seed": 1,
+  "auc": 0.9849
+ },
+ {
+  "scenario": "M",
+  "model": "PNA",
+  "seed": 2,
+  "auc": 0.86
+ },
+ {
+  "scenario": "M",
+  "model": "Contrast-GNN",
+  "seed": 0,
+  "auc": 0.9987999999999999
+ },
+ {
+  "scenario": "M",
+  "model": "Contrast-GNN",
+  "seed": 1,
+  "auc": 0.6718999999999999
+ },
+ {
+  "scenario": "M",
+  "model": "Contrast-GNN",
+  "seed": 2,
+  "auc": 0.7001000000000001
+ }
+]

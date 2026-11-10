@@ -1,0 +1,293 @@
+
+=== DSS / all: n=689, events=223, comparable pairs=104629
+  DeepSets                           C=0.630  (single seeds 0.609 +- 0.010)  null 0.500/95% 0.534  p=0.0002
+  DeepSets+SDpool                    C=0.640  (single seeds 0.622 +- 0.007)  null 0.500/95% 0.534  p=0.0002
+  GCN                                C=0.622  (single seeds 0.603 +- 0.011)  null 0.500/95% 0.534  p=0.0002
+  GCN+SDpool                         C=0.625  (single seeds 0.602 +- 0.016)  null 0.500/95% 0.534  p=0.0002
+  SAGE                               C=0.630  (single seeds 0.608 +- 0.019)  null 0.499/95% 0.534  p=0.0002
+  SAGE+SDpool                        C=0.643  (single seeds 0.612 +- 0.008)  null 0.500/95% 0.534  p=0.0002
+  GAT                                C=0.625  (single seeds 0.605 +- 0.009)  null 0.500/95% 0.534  p=0.0002
+  GAT+SDpool                         C=0.639  (single seeds 0.608 +- 0.012)  null 0.500/95% 0.534  p=0.0002
+  GIN                                C=0.612  (single seeds 0.581 +- 0.015)  null 0.500/95% 0.535  p=0.0002
+  GIN+SDpool                         C=0.605  (single seeds 0.578 +- 0.012)  null 0.500/95% 0.534  p=0.0002
+  PNA                                C=0.610  (single seeds 0.589 +- 0.011)  null 0.500/95% 0.534  p=0.0002
+  PNA+SDpool                         C=0.620  (single seeds 0.597 +- 0.016)  null 0.500/95% 0.534  p=0.0002
+  FAGCN                              C=0.635  (single seeds 0.616 +- 0.016)  null 0.500/95% 0.533  p=0.0002
+  FAGCN+SDpool                       C=0.626  (single seeds 0.608 +- 0.012)  null 0.500/95% 0.534  p=0.0002
+  ACM-lite                           C=0.610  (single seeds 0.590 +- 0.009)  null 0.500/95% 0.534  p=0.0002
+  ACM-lite+SDpool                    C=0.620  (single seeds 0.597 +- 0.013)  null 0.500/95% 0.534  p=0.0002
+  LC+GCN                             C=0.629  (single seeds 0.606 +- 0.015)  null 0.500/95% 0.534  p=0.0002
+  LC+GCN+SDpool                      C=0.649  (single seeds 0.618 +- 0.009)  null 0.500/95% 0.535  p=0.0002
+  Contrast-GNN                       C=0.627  (single seeds 0.602 +- 0.021)  null 0.499/95% 0.533  p=0.0002
+  Contrast-GNN+SDpool                C=0.621  (single seeds 0.598 +- 0.019)  null 0.499/95% 0.533  p=0.0002
+  Ridge: Mean (no graph)             C=0.630  (single seeds 0.630 +- 0.000)  null 0.500/95% 0.533  p=0.0002
+  Ridge: Mean+SD (no graph)          C=0.642  (single seeds 0.642 +- 0.000)  null 0.499/95% 0.534  p=0.0002
+  Ridge: GRAD (graph contrast)       C=0.648  (single seeds 0.648 +- 0.000)  null 0.500/95% 0.533  p=0.0002
+  Ridge: Clinical (reference)        C=0.706  (single seeds 0.706 +- 0.000)  null 0.500/95% 0.534  p=0.0002
+
+=== DSS / ER+: n=527, events=153, comparable pairs=54195
+  DeepSets                           C=0.623  (single seeds 0.599 +- 0.011)  null 0.499/95% 0.541  p=0.0002
+  DeepSets+SDpool                    C=0.631  (single seeds 0.610 +- 0.013)  null 0.500/95% 0.541  p=0.0002
+  GCN                                C=0.622  (single seeds 0.600 +- 0.016)  null 0.500/95% 0.541  p=0.0002
+  GCN+SDpool                         C=0.627  (single seeds 0.598 +- 0.019)  null 0.500/95% 0.542  p=0.0002
+  SAGE                               C=0.628  (single seeds 0.601 +- 0.022)  null 0.500/95% 0.540  p=0.0002
+  SAGE+SDpool                        C=0.639  (single seeds 0.605 +- 0.014)  null 0.500/95% 0.541  p=0.0002
+  GAT                                C=0.619  (single seeds 0.597 +- 0.007)  null 0.500/95% 0.541  p=0.0002
+  GAT+SDpool                         C=0.637  (single seeds 0.603 +- 0.017)  null 0.500/95% 0.542  p=0.0002
+  GIN                                C=0.606  (single seeds 0.575 +- 0.015)  null 0.500/95% 0.541  p=0.0002
+  GIN+SDpool                         C=0.588  (single seeds 0.564 +- 0.011)  null 0.500/95% 0.540  p=0.0006
+  PNA                                C=0.605  (single seeds 0.584 +- 0.017)  null 0.500/95% 0.541  p=0.0002
+  PNA+SDpool                         C=0.617  (single seeds 0.593 +- 0.020)  null 0.500/95% 0.539  p=0.0002
+  FAGCN                              C=0.626  (single seeds 0.605 +- 0.018)  null 0.500/95% 0.542  p=0.0002
+  FAGCN+SDpool                       C=0.629  (single seeds 0.607 +- 0.014)  null 0.500/95% 0.542  p=0.0002
+  ACM-lite                           C=0.601  (single seeds 0.580 +- 0.015)  null 0.500/95% 0.541  p=0.0002
+  ACM-lite+SDpool                    C=0.606  (single seeds 0.582 +- 0.013)  null 0.500/95% 0.542  p=0.0002
+  LC+GCN                             C=0.623  (single seeds 0.598 +- 0.014)  null 0.500/95% 0.541  p=0.0002
+  LC+GCN+SDpool                      C=0.639  (single seeds 0.606 +- 0.012)  null 0.500/95% 0.541  p=0.0002
+  Contrast-GNN                       C=0.629  (single seeds 0.600 +- 0.019)  null 0.500/95% 0.541  p=0.0002
+  Contrast-GNN+SDpool                C=0.617  (single seeds 0.592 +- 0.028)  null 0.500/95% 0.541  p=0.0002
+  Ridge: Mean (no graph)             C=0.633  (single seeds 0.633 +- 0.000)  null 0.500/95% 0.540  p=0.0002
+  Ridge: Mean+SD (no graph)          C=0.638  (single seeds 0.638 +- 0.000)  null 0.500/95% 0.542  p=0.0002
+  Ridge: GRAD (graph contrast)       C=0.640  (single seeds 0.640 +- 0.000)  null 0.500/95% 0.541  p=0.0002
+  Ridge: Clinical (reference)        C=0.697  (single seeds 0.697 +- 0.000)  null 0.500/95% 0.539  p=0.0002
+
+=== DSS / ER-: n=147, events=65, comparable pairs=6517
+  DeepSets                           C=0.552  (single seeds 0.546 +- 0.031)  null 0.500/95% 0.561  p=0.0774
+  DeepSets+SDpool                    C=0.555  (single seeds 0.547 +- 0.027)  null 0.500/95% 0.561  p=0.0694
+  GCN                                C=0.521  (single seeds 0.519 +- 0.022)  null 0.501/95% 0.562  p=0.3003
+  GCN+SDpool                         C=0.519  (single seeds 0.521 +- 0.017)  null 0.501/95% 0.562  p=0.3185
+  SAGE                               C=0.535  (single seeds 0.531 +- 0.023)  null 0.501/95% 0.562  p=0.1802
+  SAGE+SDpool                        C=0.552  (single seeds 0.536 +- 0.034)  null 0.500/95% 0.562  p=0.0826
+  GAT                                C=0.537  (single seeds 0.530 +- 0.023)  null 0.501/95% 0.564  p=0.1766
+  GAT+SDpool                         C=0.531  (single seeds 0.528 +- 0.020)  null 0.500/95% 0.563  p=0.1984
+  GIN                                C=0.521  (single seeds 0.514 +- 0.027)  null 0.501/95% 0.561  p=0.2963
+  GIN+SDpool                         C=0.526  (single seeds 0.524 +- 0.016)  null 0.499/95% 0.562  p=0.2402
+  PNA                                C=0.523  (single seeds 0.525 +- 0.014)  null 0.500/95% 0.563  p=0.2765
+  PNA+SDpool                         C=0.513  (single seeds 0.509 +- 0.022)  null 0.499/95% 0.559  p=0.3581
+  FAGCN                              C=0.553  (single seeds 0.548 +- 0.015)  null 0.500/95% 0.561  p=0.0796
+  FAGCN+SDpool                       C=0.524  (single seeds 0.527 +- 0.018)  null 0.501/95% 0.565  p=0.2689
+  ACM-lite                           C=0.542  (single seeds 0.532 +- 0.024)  null 0.500/95% 0.560  p=0.1276
+  ACM-lite+SDpool                    C=0.524  (single seeds 0.521 +- 0.026)  null 0.501/95% 0.564  p=0.2703
+  LC+GCN                             C=0.536  (single seeds 0.529 +- 0.015)  null 0.500/95% 0.562  p=0.1704
+  LC+GCN+SDpool                      C=0.564  (single seeds 0.548 +- 0.018)  null 0.500/95% 0.560  p=0.0406
+  Contrast-GNN                       C=0.507  (single seeds 0.516 +- 0.036)  null 0.501/95% 0.563  p=0.4349
+  Contrast-GNN+SDpool                C=0.523  (single seeds 0.510 +- 0.019)  null 0.501/95% 0.561  p=0.2881
+  Ridge: Mean (no graph)             C=0.520  (single seeds 0.520 +- 0.000)  null 0.499/95% 0.561  p=0.2909
+  Ridge: Mean+SD (no graph)          C=0.530  (single seeds 0.530 +- 0.000)  null 0.499/95% 0.562  p=0.2106
+  Ridge: GRAD (graph contrast)       C=0.557  (single seeds 0.557 +- 0.000)  null 0.499/95% 0.563  p=0.0678
+  Ridge: Clinical (reference)        C=0.639  (single seeds 0.639 +- 0.000)  null 0.500/95% 0.562  p=0.0002
+
+=== OS / all: n=595, events=291, comparable pairs=108141
+  DeepSets                           C=0.607  (single seeds 0.594 +- 0.004)  null 0.500/95% 0.531  p=0.0002
+  DeepSets+SDpool                    C=0.623  (single seeds 0.605 +- 0.006)  null 0.499/95% 0.530  p=0.0002
+  GCN                                C=0.606  (single seeds 0.584 +- 0.015)  null 0.500/95% 0.530  p=0.0002
+  GCN+SDpool                         C=0.612  (single seeds 0.584 +- 0.020)  null 0.500/95% 0.531  p=0.0002
+  SAGE                               C=0.608  (single seeds 0.589 +- 0.009)  null 0.500/95% 0.532  p=0.0002
+  SAGE+SDpool                        C=0.621  (single seeds 0.593 +- 0.015)  null 0.500/95% 0.531  p=0.0002
+  GAT                                C=0.611  (single seeds 0.587 +- 0.009)  null 0.500/95% 0.529  p=0.0002
+  GAT+SDpool                         C=0.600  (single seeds 0.571 +- 0.015)  null 0.500/95% 0.530  p=0.0002
+  GIN                                C=0.589  (single seeds 0.565 +- 0.006)  null 0.500/95% 0.530  p=0.0002
+  GIN+SDpool                         C=0.596  (single seeds 0.572 +- 0.012)  null 0.500/95% 0.530  p=0.0002
+  PNA                                C=0.600  (single seeds 0.583 +- 0.012)  null 0.500/95% 0.530  p=0.0002
+  PNA+SDpool                         C=0.605  (single seeds 0.587 +- 0.015)  null 0.500/95% 0.530  p=0.0002
+  FAGCN                              C=0.619  (single seeds 0.601 +- 0.010)  null 0.501/95% 0.531  p=0.0002
+  FAGCN+SDpool                       C=0.619  (single seeds 0.597 +- 0.004)  null 0.499/95% 0.529  p=0.0002
+  ACM-lite                           C=0.609  (single seeds 0.590 +- 0.011)  null 0.500/95% 0.530  p=0.0002
+  ACM-lite+SDpool                    C=0.612  (single seeds 0.592 +- 0.011)  null 0.500/95% 0.530  p=0.0002
+  LC+GCN                             C=0.613  (single seeds 0.589 +- 0.018)  null 0.500/95% 0.530  p=0.0002
+  LC+GCN+SDpool                      C=0.620  (single seeds 0.593 +- 0.008)  null 0.500/95% 0.531  p=0.0002
+  Contrast-GNN                       C=0.628  (single seeds 0.601 +- 0.014)  null 0.500/95% 0.531  p=0.0002
+  Contrast-GNN+SDpool                C=0.608  (single seeds 0.587 +- 0.014)  null 0.501/95% 0.531  p=0.0002
+  Ridge: Mean (no graph)             C=0.616  (single seeds 0.616 +- 0.000)  null 0.500/95% 0.530  p=0.0002
+  Ridge: Mean+SD (no graph)          C=0.616  (single seeds 0.616 +- 0.000)  null 0.500/95% 0.530  p=0.0002
+  Ridge: GRAD (graph contrast)       C=0.620  (single seeds 0.620 +- 0.000)  null 0.500/95% 0.531  p=0.0002
+  Ridge: Clinical (reference)        C=0.665  (single seeds 0.665 +- 0.000)  null 0.500/95% 0.531  p=0.0002
+
+
+######## COMPARISONS (two-sided paired permutation, Holm within family) ########
+
+--- PRIMARY graph vs no-graph (54 tests)
+  DSS/all  GCN                      vs DeepSets                       dC=-0.007  p=0.4443  Holm=1.0000
+  DSS/all  GCN+SDpool               vs DeepSets+SDpool                dC=-0.015  p=0.1218  Holm=1.0000
+  DSS/all  SAGE                     vs DeepSets                       dC=+0.001  p=0.9446  Holm=1.0000
+  DSS/all  SAGE+SDpool              vs DeepSets+SDpool                dC=+0.003  p=0.7598  Holm=1.0000
+  DSS/all  GAT                      vs DeepSets                       dC=-0.005  p=0.6489  Holm=1.0000
+  DSS/all  GAT+SDpool               vs DeepSets+SDpool                dC=-0.001  p=0.9128  Holm=1.0000
+  DSS/all  GIN                      vs DeepSets                       dC=-0.018  p=0.1126  Holm=1.0000
+  DSS/all  GIN+SDpool               vs DeepSets+SDpool                dC=-0.035  p=0.0040  Holm=0.2160
+  DSS/all  PNA                      vs DeepSets                       dC=-0.020  p=0.0858  Holm=1.0000
+  DSS/all  PNA+SDpool               vs DeepSets+SDpool                dC=-0.020  p=0.0378  Holm=1.0000
+  DSS/all  FAGCN                    vs DeepSets                       dC=+0.006  p=0.4923  Holm=1.0000
+  DSS/all  FAGCN+SDpool             vs DeepSets+SDpool                dC=-0.014  p=0.0870  Holm=1.0000
+  DSS/all  ACM-lite                 vs DeepSets                       dC=-0.020  p=0.0326  Holm=1.0000
+  DSS/all  ACM-lite+SDpool          vs DeepSets+SDpool                dC=-0.020  p=0.0270  Holm=1.0000
+  DSS/all  LC+GCN                   vs DeepSets                       dC=-0.001  p=0.9224  Holm=1.0000
+  DSS/all  LC+GCN+SDpool            vs DeepSets+SDpool                dC=+0.009  p=0.3101  Holm=1.0000
+  DSS/all  Contrast-GNN             vs DeepSets                       dC=-0.003  p=0.7303  Holm=1.0000
+  DSS/all  Contrast-GNN+SDpool      vs DeepSets+SDpool                dC=-0.019  p=0.0430  Holm=1.0000
+  DSS/ER+  GCN                      vs DeepSets                       dC=-0.001  p=0.9094  Holm=1.0000
+  DSS/ER+  GCN+SDpool               vs DeepSets+SDpool                dC=-0.004  p=0.7131  Holm=1.0000
+  DSS/ER+  SAGE                     vs DeepSets                       dC=+0.004  p=0.7183  Holm=1.0000
+  DSS/ER+  SAGE+SDpool              vs DeepSets+SDpool                dC=+0.008  p=0.5013  Holm=1.0000
+  DSS/ER+  GAT                      vs DeepSets                       dC=-0.004  p=0.7305  Holm=1.0000
+  DSS/ER+  GAT+SDpool               vs DeepSets+SDpool                dC=+0.006  p=0.6555  Holm=1.0000
+  DSS/ER+  GIN                      vs DeepSets                       dC=-0.018  p=0.2138  Holm=1.0000
+  DSS/ER+  GIN+SDpool               vs DeepSets+SDpool                dC=-0.043  p=0.0042  Holm=0.2226
+  DSS/ER+  PNA                      vs DeepSets                       dC=-0.019  p=0.1852  Holm=1.0000
+  DSS/ER+  PNA+SDpool               vs DeepSets+SDpool                dC=-0.014  p=0.2579  Holm=1.0000
+  DSS/ER+  FAGCN                    vs DeepSets                       dC=+0.003  p=0.7930  Holm=1.0000
+  DSS/ER+  FAGCN+SDpool             vs DeepSets+SDpool                dC=-0.002  p=0.8550  Holm=1.0000
+  DSS/ER+  ACM-lite                 vs DeepSets                       dC=-0.022  p=0.0644  Holm=1.0000
+  DSS/ER+  ACM-lite+SDpool          vs DeepSets+SDpool                dC=-0.025  p=0.0416  Holm=1.0000
+  DSS/ER+  LC+GCN                   vs DeepSets                       dC=-0.000  p=0.9666  Holm=1.0000
+  DSS/ER+  LC+GCN+SDpool            vs DeepSets+SDpool                dC=+0.008  p=0.5403  Holm=1.0000
+  DSS/ER+  Contrast-GNN             vs DeepSets                       dC=+0.005  p=0.6391  Holm=1.0000
+  DSS/ER+  Contrast-GNN+SDpool      vs DeepSets+SDpool                dC=-0.014  p=0.2647  Holm=1.0000
+  DSS/ER-  GCN                      vs DeepSets                       dC=-0.031  p=0.2068  Holm=1.0000
+  DSS/ER-  GCN+SDpool               vs DeepSets+SDpool                dC=-0.036  p=0.0694  Holm=1.0000
+  DSS/ER-  SAGE                     vs DeepSets                       dC=-0.018  p=0.4031  Holm=1.0000
+  DSS/ER-  SAGE+SDpool              vs DeepSets+SDpool                dC=-0.003  p=0.9060  Holm=1.0000
+  DSS/ER-  GAT                      vs DeepSets                       dC=-0.015  p=0.5253  Holm=1.0000
+  DSS/ER-  GAT+SDpool               vs DeepSets+SDpool                dC=-0.024  p=0.3909  Holm=1.0000
+  DSS/ER-  GIN                      vs DeepSets                       dC=-0.031  p=0.2374  Holm=1.0000
+  DSS/ER-  GIN+SDpool               vs DeepSets+SDpool                dC=-0.030  p=0.4037  Holm=1.0000
+  DSS/ER-  PNA                      vs DeepSets                       dC=-0.029  p=0.3221  Holm=1.0000
+  DSS/ER-  PNA+SDpool               vs DeepSets+SDpool                dC=-0.042  p=0.1094  Holm=1.0000
+  DSS/ER-  FAGCN                    vs DeepSets                       dC=+0.001  p=0.9732  Holm=1.0000
+  DSS/ER-  FAGCN+SDpool             vs DeepSets+SDpool                dC=-0.031  p=0.0594  Holm=1.0000
+  DSS/ER-  ACM-lite                 vs DeepSets                       dC=-0.010  p=0.6419  Holm=1.0000
+  DSS/ER-  ACM-lite+SDpool          vs DeepSets+SDpool                dC=-0.032  p=0.1178  Holm=1.0000
+  DSS/ER-  LC+GCN                   vs DeepSets                       dC=-0.016  p=0.3917  Holm=1.0000
+  DSS/ER-  LC+GCN+SDpool            vs DeepSets+SDpool                dC=+0.009  p=0.6937  Holm=1.0000
+  DSS/ER-  Contrast-GNN             vs DeepSets                       dC=-0.045  p=0.0492  Holm=1.0000
+  DSS/ER-  Contrast-GNN+SDpool      vs DeepSets+SDpool                dC=-0.033  p=0.0996  Holm=1.0000
+
+--- contrast vs averaging (24 tests)
+  DSS/all  Contrast-GNN             vs GCN                            dC=+0.004  p=0.6047  Holm=1.0000
+  DSS/all  Contrast-GNN             vs GAT                            dC=+0.002  p=0.8650  Holm=1.0000
+  DSS/all  Contrast-GNN             vs GIN                            dC=+0.015  p=0.1762  Holm=1.0000
+  DSS/all  Contrast-GNN             vs SAGE                           dC=-0.004  p=0.6739  Holm=1.0000
+  DSS/all  Contrast-GNN+SDpool      vs GCN+SDpool                     dC=-0.004  p=0.6989  Holm=1.0000
+  DSS/all  Contrast-GNN+SDpool      vs GAT+SDpool                     dC=-0.018  p=0.1272  Holm=1.0000
+  DSS/all  Contrast-GNN+SDpool      vs GIN+SDpool                     dC=+0.016  p=0.1602  Holm=1.0000
+  DSS/all  Contrast-GNN+SDpool      vs SAGE+SDpool                    dC=-0.022  p=0.0284  Holm=0.6815
+  DSS/ER+  Contrast-GNN             vs GCN                            dC=+0.007  p=0.5551  Holm=1.0000
+  DSS/ER+  Contrast-GNN             vs GAT                            dC=+0.009  p=0.4425  Holm=1.0000
+  DSS/ER+  Contrast-GNN             vs GIN                            dC=+0.023  p=0.0994  Holm=1.0000
+  DSS/ER+  Contrast-GNN             vs SAGE                           dC=+0.001  p=0.9234  Holm=1.0000
+  DSS/ER+  Contrast-GNN+SDpool      vs GCN+SDpool                     dC=-0.010  p=0.4837  Holm=1.0000
+  DSS/ER+  Contrast-GNN+SDpool      vs GAT+SDpool                     dC=-0.020  p=0.1768  Holm=1.0000
+  DSS/ER+  Contrast-GNN+SDpool      vs GIN+SDpool                     dC=+0.029  p=0.0450  Holm=1.0000
+  DSS/ER+  Contrast-GNN+SDpool      vs SAGE+SDpool                    dC=-0.022  p=0.0808  Holm=1.0000
+  DSS/ER-  Contrast-GNN             vs GCN                            dC=-0.014  p=0.5947  Holm=1.0000
+  DSS/ER-  Contrast-GNN             vs GAT                            dC=-0.030  p=0.2332  Holm=1.0000
+  DSS/ER-  Contrast-GNN             vs GIN                            dC=-0.014  p=0.5933  Holm=1.0000
+  DSS/ER-  Contrast-GNN             vs SAGE                           dC=-0.028  p=0.1530  Holm=1.0000
+  DSS/ER-  Contrast-GNN+SDpool      vs GCN+SDpool                     dC=+0.003  p=0.8654  Holm=1.0000
+  DSS/ER-  Contrast-GNN+SDpool      vs GAT+SDpool                     dC=-0.009  p=0.7425  Holm=1.0000
+  DSS/ER-  Contrast-GNN+SDpool      vs GIN+SDpool                     dC=-0.003  p=0.9298  Holm=1.0000
+  DSS/ER-  Contrast-GNN+SDpool      vs SAGE+SDpool                    dC=-0.030  p=0.1990  Holm=1.0000
+
+--- SDpool vs mean pool (30 tests)
+  DSS/all  DeepSets+SDpool          vs DeepSets                       dC=+0.011  p=0.1938  Holm=1.0000
+  DSS/all  GCN+SDpool               vs GCN                            dC=+0.003  p=0.7235  Holm=1.0000
+  DSS/all  SAGE+SDpool              vs SAGE                           dC=+0.013  p=0.1450  Holm=1.0000
+  DSS/all  GAT+SDpool               vs GAT                            dC=+0.014  p=0.2134  Holm=1.0000
+  DSS/all  GIN+SDpool               vs GIN                            dC=-0.007  p=0.5327  Holm=1.0000
+  DSS/all  PNA+SDpool               vs PNA                            dC=+0.010  p=0.3817  Holm=1.0000
+  DSS/all  FAGCN+SDpool             vs FAGCN                          dC=-0.009  p=0.3337  Holm=1.0000
+  DSS/all  ACM-lite+SDpool          vs ACM-lite                       dC=+0.010  p=0.2961  Holm=1.0000
+  DSS/all  LC+GCN+SDpool            vs LC+GCN                         dC=+0.021  p=0.0294  Holm=0.8818
+  DSS/all  Contrast-GNN+SDpool      vs Contrast-GNN                   dC=-0.005  p=0.5363  Holm=1.0000
+  DSS/ER+  DeepSets+SDpool          vs DeepSets                       dC=+0.008  p=0.4697  Holm=1.0000
+  DSS/ER+  GCN+SDpool               vs GCN                            dC=+0.005  p=0.7113  Holm=1.0000
+  DSS/ER+  SAGE+SDpool              vs SAGE                           dC=+0.012  p=0.3177  Holm=1.0000
+  DSS/ER+  GAT+SDpool               vs GAT                            dC=+0.018  p=0.2416  Holm=1.0000
+  DSS/ER+  GIN+SDpool               vs GIN                            dC=-0.018  p=0.2094  Holm=1.0000
+  DSS/ER+  PNA+SDpool               vs PNA                            dC=+0.013  p=0.4233  Holm=1.0000
+  DSS/ER+  FAGCN+SDpool             vs FAGCN                          dC=+0.003  p=0.8064  Holm=1.0000
+  DSS/ER+  ACM-lite+SDpool          vs ACM-lite                       dC=+0.005  p=0.6755  Holm=1.0000
+  DSS/ER+  LC+GCN+SDpool            vs LC+GCN                         dC=+0.016  p=0.2290  Holm=1.0000
+  DSS/ER+  Contrast-GNN+SDpool      vs Contrast-GNN                   dC=-0.012  p=0.2541  Holm=1.0000
+  DSS/ER-  DeepSets+SDpool          vs DeepSets                       dC=+0.003  p=0.8592  Holm=1.0000
+  DSS/ER-  GCN+SDpool               vs GCN                            dC=-0.002  p=0.9364  Holm=1.0000
+  DSS/ER-  SAGE+SDpool              vs SAGE                           dC=+0.018  p=0.4055  Holm=1.0000
+  DSS/ER-  GAT+SDpool               vs GAT                            dC=-0.005  p=0.8430  Holm=1.0000
+  DSS/ER-  GIN+SDpool               vs GIN                            dC=+0.005  p=0.8280  Holm=1.0000
+  DSS/ER-  PNA+SDpool               vs PNA                            dC=-0.010  p=0.6591  Holm=1.0000
+  DSS/ER-  FAGCN+SDpool             vs FAGCN                          dC=-0.029  p=0.1384  Holm=1.0000
+  DSS/ER-  ACM-lite+SDpool          vs ACM-lite                       dC=-0.019  p=0.3803  Holm=1.0000
+  DSS/ER-  LC+GCN+SDpool            vs LC+GCN                         dC=+0.028  p=0.2384  Holm=1.0000
+  DSS/ER-  Contrast-GNN+SDpool      vs Contrast-GNN                   dC=+0.016  p=0.4133  Holm=1.0000
+
+--- GNN vs ridge baseline (24 tests)
+  DSS/all  Contrast-GNN             vs Ridge: Mean+SD (no graph)      dC=-0.015  p=0.2496  Holm=1.0000
+  DSS/all  Contrast-GNN             vs Ridge: GRAD (graph contrast)   dC=-0.021  p=0.1252  Holm=1.0000
+  DSS/all  Contrast-GNN+SDpool      vs Ridge: Mean+SD (no graph)      dC=-0.020  p=0.1250  Holm=1.0000
+  DSS/all  Contrast-GNN+SDpool      vs Ridge: GRAD (graph contrast)   dC=-0.026  p=0.0514  Holm=1.0000
+  DSS/all  GCN                      vs Ridge: Mean+SD (no graph)      dC=-0.020  p=0.1710  Holm=1.0000
+  DSS/all  GCN                      vs Ridge: GRAD (graph contrast)   dC=-0.025  p=0.0874  Holm=1.0000
+  DSS/all  DeepSets+SDpool          vs Ridge: Mean+SD (no graph)      dC=-0.002  p=0.8966  Holm=1.0000
+  DSS/all  DeepSets+SDpool          vs Ridge: GRAD (graph contrast)   dC=-0.007  p=0.5507  Holm=1.0000
+  DSS/ER+  Contrast-GNN             vs Ridge: Mean+SD (no graph)      dC=-0.010  p=0.5863  Holm=1.0000
+  DSS/ER+  Contrast-GNN             vs Ridge: GRAD (graph contrast)   dC=-0.011  p=0.5451  Holm=1.0000
+  DSS/ER+  Contrast-GNN+SDpool      vs Ridge: Mean+SD (no graph)      dC=-0.021  p=0.2276  Holm=1.0000
+  DSS/ER+  Contrast-GNN+SDpool      vs Ridge: GRAD (graph contrast)   dC=-0.023  p=0.2076  Holm=1.0000
+  DSS/ER+  GCN                      vs Ridge: Mean+SD (no graph)      dC=-0.016  p=0.4111  Holm=1.0000
+  DSS/ER+  GCN                      vs Ridge: GRAD (graph contrast)   dC=-0.018  p=0.3635  Holm=1.0000
+  DSS/ER+  DeepSets+SDpool          vs Ridge: Mean+SD (no graph)      dC=-0.007  p=0.6533  Holm=1.0000
+  DSS/ER+  DeepSets+SDpool          vs Ridge: GRAD (graph contrast)   dC=-0.009  p=0.5913  Holm=1.0000
+  DSS/ER-  Contrast-GNN             vs Ridge: Mean+SD (no graph)      dC=-0.023  p=0.3995  Holm=1.0000
+  DSS/ER-  Contrast-GNN             vs Ridge: GRAD (graph contrast)   dC=-0.050  p=0.0976  Holm=1.0000
+  DSS/ER-  Contrast-GNN+SDpool      vs Ridge: Mean+SD (no graph)      dC=-0.007  p=0.8006  Holm=1.0000
+  DSS/ER-  Contrast-GNN+SDpool      vs Ridge: GRAD (graph contrast)   dC=-0.034  p=0.2507  Holm=1.0000
+  DSS/ER-  GCN                      vs Ridge: Mean+SD (no graph)      dC=-0.009  p=0.7858  Holm=1.0000
+  DSS/ER-  GCN                      vs Ridge: GRAD (graph contrast)   dC=-0.036  p=0.2893  Holm=1.0000
+  DSS/ER-  DeepSets+SDpool          vs Ridge: Mean+SD (no graph)      dC=+0.026  p=0.3011  Holm=1.0000
+  DSS/ER-  DeepSets+SDpool          vs Ridge: GRAD (graph contrast)   dC=-0.001  p=0.9620  Holm=1.0000
+
+--- OS graph vs no-graph (18 tests)
+  OS/all  GCN                      vs DeepSets                       dC=-0.001  p=0.9354  Holm=1.0000
+  OS/all  GCN+SDpool               vs DeepSets+SDpool                dC=-0.011  p=0.2232  Holm=1.0000
+  OS/all  SAGE                     vs DeepSets                       dC=+0.001  p=0.9404  Holm=1.0000
+  OS/all  SAGE+SDpool              vs DeepSets+SDpool                dC=-0.002  p=0.7668  Holm=1.0000
+  OS/all  GAT                      vs DeepSets                       dC=+0.004  p=0.6113  Holm=1.0000
+  OS/all  GAT+SDpool               vs DeepSets+SDpool                dC=-0.024  p=0.0306  Holm=0.4895
+  OS/all  GIN                      vs DeepSets                       dC=-0.018  p=0.1460  Holm=1.0000
+  OS/all  GIN+SDpool               vs DeepSets+SDpool                dC=-0.027  p=0.0228  Holm=0.4103
+  OS/all  PNA                      vs DeepSets                       dC=-0.007  p=0.3733  Holm=1.0000
+  OS/all  PNA+SDpool               vs DeepSets+SDpool                dC=-0.018  p=0.0288  Holm=0.4895
+  OS/all  FAGCN                    vs DeepSets                       dC=+0.012  p=0.1202  Holm=1.0000
+  OS/all  FAGCN+SDpool             vs DeepSets+SDpool                dC=-0.004  p=0.5981  Holm=1.0000
+  OS/all  ACM-lite                 vs DeepSets                       dC=+0.002  p=0.8412  Holm=1.0000
+  OS/all  ACM-lite+SDpool          vs DeepSets+SDpool                dC=-0.011  p=0.2799  Holm=1.0000
+  OS/all  LC+GCN                   vs DeepSets                       dC=+0.006  p=0.5193  Holm=1.0000
+  OS/all  LC+GCN+SDpool            vs DeepSets+SDpool                dC=-0.004  p=0.6669  Holm=1.0000
+  OS/all  Contrast-GNN             vs DeepSets                       dC=+0.021  p=0.0306  Holm=0.4895
+  OS/all  Contrast-GNN+SDpool      vs DeepSets+SDpool                dC=-0.015  p=0.1216  Holm=1.0000
+
+--- training: median best epoch / median epochs run / median train s, per model (DSS)
+                     best_epoch  epochs_run  sec_train
+model                                                 
+ACM-lite                   10.0        50.0        7.6
+ACM-lite+SDpool            10.0        50.0        6.7
+Contrast-GNN               10.0        50.0       12.3
+Contrast-GNN+SDpool        15.0        55.0       11.0
+DeepSets                   15.0        55.0        0.5
+DeepSets+SDpool            10.0        50.0        1.5
+FAGCN                      15.0        55.0       12.0
+FAGCN+SDpool               15.0        55.0       10.7
+GAT                        15.0        55.0       25.2
+GAT+SDpool                 15.0        55.0       24.6
+GCN                        10.0        50.0        8.7
+GCN+SDpool                 10.0        50.0        8.9
+GIN                        10.0        50.0        7.6
+GIN+SDpool                 10.0        50.0        7.4
+LC+GCN                     10.0        50.0       10.4
+LC+GCN+SDpool              10.0        50.0        8.8
+PNA                        20.0        60.0       60.2
+PNA+SDpool                 10.0        50.0       40.4
+SAGE                        5.0        45.0        6.4
+SAGE+SDpool                10.0        50.0        7.2
+
+saved to C:\Users\JunWang\Downloads\NVIDIA Contrast-GNN Project\results\03_gnn_analysis

@@ -1,0 +1,197 @@
+{
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+ "torch": "2.9.1+cu130",
+ "triton": "3.5.1",
+ "ops": [
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 16,
+   "impl": "PyG scatter",
+   "fwd_ms": 9.113052958533878,
+   "fwdbwd_ms": 18.012214279174806,
+   "fwd_mem_GB": 1.1453614234924316,
+   "fwdbwd_mem_GB": 1.5929803848266602
+  },
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 16,
+   "impl": "fused Triton",
+   "fwd_ms": 0.14059158637328287,
+   "fwdbwd_ms": 0.39246709436178207,
+   "fwd_mem_GB": 0.06563663482666016,
+   "fwdbwd_mem_GB": 0.1312732696533203
+  },
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 32,
+   "impl": "PyG scatter",
+   "fwd_ms": 11.052762255949133,
+   "fwdbwd_ms": 22.312123775482178,
+   "fwd_mem_GB": 2.291015625,
+   "fwdbwd_mem_GB": 3.1859607696533203
+  },
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 32,
+   "impl": "fused Triton",
+   "fwd_ms": 0.23013852955316044,
+   "fwdbwd_ms": 0.6437340454922782,
+   "fwd_mem_GB": 0.1312732696533203,
+   "fwdbwd_mem_GB": 0.2625465393066406
+  },
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 64,
+   "impl": "PyG scatter",
+   "fwd_ms": 14.807579260606031,
+   "fwdbwd_ms": 31.882965405782063,
+   "fwd_mem_GB": 4.58203125,
+   "fwdbwd_mem_GB": 6.371921062469482
+  },
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 64,
+   "impl": "fused Triton",
+   "fwd_ms": 0.5191572640566218,
+   "fwdbwd_ms": 1.3550790026783943,
+   "fwd_mem_GB": 0.2625460624694824,
+   "fwdbwd_mem_GB": 0.5250921249389648
+  },
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 128,
+   "impl": "PyG scatter",
+   "fwd_ms": 22.35454797744751,
+   "fwdbwd_ms": 51.203200022379555,
+   "fwd_mem_GB": 9.160543441772461,
+   "fwdbwd_mem_GB": 12.739150047302246
+  },
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 128,
+   "impl": "fused Triton",
+   "fwd_ms": 1.01332366957384,
+   "fwdbwd_ms": 2.6490809679031373,
+   "fwd_mem_GB": 0.5250921249389648,
+   "fwdbwd_mem_GB": 1.0501842498779297
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 16,
+   "impl": "PyG scatter",
+   "fwd_ms": 36.49717788696289,
+   "fwdbwd_ms": 73.75124740600586,
+   "fwd_mem_GB": 4.58203125,
+   "fwdbwd_mem_GB": 6.371921062469482
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 16,
+   "impl": "fused Triton",
+   "fwd_ms": 0.48666407645327375,
+   "fwdbwd_ms": 1.2516093537358954,
+   "fwd_mem_GB": 0.2625460624694824,
+   "fwdbwd_mem_GB": 0.5250921249389648
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 32,
+   "impl": "PyG scatter",
+   "fwd_ms": 44.24023914337158,
+   "fwdbwd_ms": 90.84976196289062,
+   "fwd_mem_GB": 9.160543441772461,
+   "fwdbwd_mem_GB": 12.739150047302246
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 32,
+   "impl": "fused Triton",
+   "fwd_ms": 0.8670855911902196,
+   "fwdbwd_ms": 2.413131259105824,
+   "fwd_mem_GB": 0.5250921249389648,
+   "fwdbwd_mem_GB": 1.0501842498779297
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 64,
+   "impl": "PyG scatter",
+   "fwd_ms": 59.29782358805338,
+   "fwdbwd_ms": 129.07235717773438,
+   "fwd_mem_GB": 18.322265625,
+   "fwdbwd_mem_GB": 25.47987174987793
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 64,
+   "impl": "fused Triton",
+   "fwd_ms": 2.0168403568475144,
+   "fwdbwd_ms": 5.233304610619178,
+   "fwd_mem_GB": 1.0501842498779297,
+   "fwdbwd_mem_GB": 2.1003684997558594
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 128,
+   "impl": "PyG scatter",
+   "fwd_ms": 89.50928115844727,
+   "fwdbwd_ms": 206.51881408691406,
+   "fwd_mem_GB": 36.64453125,
+   "fwdbwd_mem_GB": 50.95974349975586
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 128,
+   "impl": "fused Triton",
+   "fwd_ms": 3.987894664208094,
+   "fwdbwd_ms": 10.451278759883,
+   "fwd_mem_GB": 2.1003684997558594,
+   "fwdbwd_mem_GB": 4.200736999511719
+  }
+ ],
+ "end_to_end": {
+  "PyG scatter": {
+   "ms_per_step": 57.658751805623375,
+   "peak_GB": 5.43127965927124,
+   "loss_first": 6.074305057525635,
+   "loss_last": 5.293951511383057
+  },
+  "fused Triton": {
+   "ms_per_step": 14.610552787780762,
+   "peak_GB": 2.5278120040893555,
+   "loss_first": 6.073597431182861,
+   "loss_last": 5.2570013999938965
+  }
+ }
+}

@@ -1,0 +1,144 @@
+[
+ {
+  "endpoint": "DSS",
+  "features": "Mean (no graph)",
+  "n_features": 36,
+  "cindex_mean": 0.6211208173642107,
+  "cindex_sd": 0.007035681703659979,
+  "null_mean": 0.4976249653537738,
+  "null_95": 0.5452971929388601,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "DSS",
+  "features": "Mean+SD (no graph)",
+  "n_features": 72,
+  "cindex_mean": 0.6313244893863078,
+  "cindex_sd": 0.008037602298995075,
+  "null_mean": 0.4988226256582783,
+  "null_95": 0.5467270068527846,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "DSS",
+  "features": "GRAD (graph contrast)",
+  "n_features": 144,
+  "cindex_mean": 0.6353520534459853,
+  "cindex_sd": 0.010897031421337775,
+  "null_mean": 0.49970756195701,
+  "null_95": 0.5427073277963088,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "DSS",
+  "features": "Cell-type proportions",
+  "n_features": 32,
+  "cindex_mean": 0.6109826147626375,
+  "cindex_sd": 0.007887602724569974,
+  "null_mean": 0.5007306530694167,
+  "null_95": 0.5464144739986045,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "DSS",
+  "features": "Clinical (reference)",
+  "n_features": 4,
+  "cindex_mean": 0.7108908619981077,
+  "cindex_sd": 0.0037720536441302765,
+  "null_mean": 0.5005480077225244,
+  "null_95": 0.5433727742786416,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "DSS",
+  "comparison": "Mean+SD (no graph) vs Mean (no graph)",
+  "delta_c": 0.009184834032629485,
+  "p": 0.1549225387306347,
+  "p_holm": 0.3098450774612694
+ },
+ {
+  "endpoint": "DSS",
+  "comparison": "GRAD (graph contrast) vs Mean+SD (no graph)",
+  "delta_c": 0.007493142436609368,
+  "p": 0.09745127436281859,
+  "p_holm": 0.29235382308845576
+ },
+ {
+  "endpoint": "DSS",
+  "comparison": "Mean+SD (no graph) vs Cell-type proportions",
+  "delta_c": 0.018589492396945406,
+  "p": 0.16991504247876063,
+  "p_holm": 0.3098450774612694
+ },
+ {
+  "endpoint": "OS",
+  "features": "Mean (no graph)",
+  "n_features": 36,
+  "cindex_mean": 0.6034320932856179,
+  "cindex_sd": 0.006247054999078295,
+  "null_mean": 0.5018608807020464,
+  "null_95": 0.5455185822213591,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "OS",
+  "features": "Mean+SD (no graph)",
+  "n_features": 72,
+  "cindex_mean": 0.6124739922878464,
+  "cindex_sd": 0.008140394863936041,
+  "null_mean": 0.5042374769976234,
+  "null_95": 0.5437694768866572,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "OS",
+  "features": "GRAD (graph contrast)",
+  "n_features": 144,
+  "cindex_mean": 0.6132521430354814,
+  "cindex_sd": 0.010570070631414703,
+  "null_mean": 0.5054096272459104,
+  "null_95": 0.5473171600040687,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "OS",
+  "features": "Cell-type proportions",
+  "n_features": 32,
+  "cindex_mean": 0.5788452113444484,
+  "cindex_sd": 0.009398441356947696,
+  "null_mean": 0.5006341951711193,
+  "null_95": 0.5419873128600623,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "OS",
+  "features": "Clinical (reference)",
+  "n_features": 4,
+  "cindex_mean": 0.663761663014028,
+  "cindex_sd": 0.002871203808028458,
+  "null_mean": 0.49950640830027465,
+  "null_95": 0.5403732164488955,
+  "p_perm": 0.004975124378109453
+ },
+ {
+  "endpoint": "OS",
+  "comparison": "Mean+SD (no graph) vs Mean (no graph)",
+  "delta_c": 0.012039836879629395,
+  "p": 0.10344827586206896,
+  "p_holm": 0.20689655172413793
+ },
+ {
+  "endpoint": "OS",
+  "comparison": "GRAD (graph contrast) vs Mean+SD (no graph)",
+  "delta_c": 0.0017477182567203764,
+  "p": 0.3918040979510245,
+  "p_holm": 0.3918040979510245
+ },
+ {
+  "endpoint": "OS",
+  "comparison": "Mean+SD (no graph) vs Cell-type proportions",
+  "delta_c": 0.03745110550115127,
+  "p": 0.031984007996002,
+  "p_holm": 0.095952023988006
+ }
+]

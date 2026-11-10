@@ -1,0 +1,197 @@
+{
+ "gpu": "NVIDIA H200 NVL",
+ "torch": "2.9.1+cu130",
+ "triton": "3.5.1",
+ "ops": [
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 16,
+   "impl": "PyG scatter",
+   "fwd_ms": 9.500868701934815,
+   "fwdbwd_ms": 18.075414657592773,
+   "fwd_mem_GB": 1.1453614234924316,
+   "fwdbwd_mem_GB": 1.5929803848266602
+  },
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 16,
+   "impl": "fused Triton",
+   "fwd_ms": 0.11937803335309467,
+   "fwdbwd_ms": 0.44650585301178325,
+   "fwd_mem_GB": 0.06563663482666016,
+   "fwdbwd_mem_GB": 0.1312732696533203
+  },
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 32,
+   "impl": "PyG scatter",
+   "fwd_ms": 10.385653897335654,
+   "fwdbwd_ms": 19.83613739013672,
+   "fwd_mem_GB": 2.291015625,
+   "fwdbwd_mem_GB": 3.1859607696533203
+  },
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 32,
+   "impl": "fused Triton",
+   "fwd_ms": 0.24650562004508259,
+   "fwdbwd_ms": 0.9256650546749869,
+   "fwd_mem_GB": 0.1312732696533203,
+   "fwdbwd_mem_GB": 0.2625465393066406
+  },
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 64,
+   "impl": "PyG scatter",
+   "fwd_ms": 12.097080051898956,
+   "fwdbwd_ms": 24.472156286239624,
+   "fwd_mem_GB": 4.58203125,
+   "fwdbwd_mem_GB": 6.371921062469482
+  },
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 64,
+   "impl": "fused Triton",
+   "fwd_ms": 0.660877009669503,
+   "fwdbwd_ms": 2.09855085895175,
+   "fwd_mem_GB": 0.2625460624694824,
+   "fwdbwd_mem_GB": 0.5250921249389648
+  },
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 128,
+   "impl": "PyG scatter",
+   "fwd_ms": 15.546474695205688,
+   "fwdbwd_ms": 31.5283358891805,
+   "fwd_mem_GB": 9.160543441772461,
+   "fwdbwd_mem_GB": 12.739150047302246
+  },
+  {
+   "graph": "METABRIC",
+   "N": 1101198,
+   "E": 6403684,
+   "F": 128,
+   "impl": "fused Triton",
+   "fwd_ms": 1.239938927631752,
+   "fwdbwd_ms": 3.998450896956704,
+   "fwd_mem_GB": 0.5250921249389648,
+   "fwdbwd_mem_GB": 1.0501842498779297
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 16,
+   "impl": "PyG scatter",
+   "fwd_ms": 37.86730880737305,
+   "fwdbwd_ms": 71.57575988769531,
+   "fwd_mem_GB": 4.58203125,
+   "fwdbwd_mem_GB": 6.371921062469482
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 16,
+   "impl": "fused Triton",
+   "fwd_ms": 0.43405978107333776,
+   "fwdbwd_ms": 1.7028904586735338,
+   "fwd_mem_GB": 0.2625460624694824,
+   "fwdbwd_mem_GB": 0.5250921249389648
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 32,
+   "impl": "PyG scatter",
+   "fwd_ms": 41.394328117370605,
+   "fwdbwd_ms": 78.66092681884766,
+   "fwd_mem_GB": 9.160543441772461,
+   "fwdbwd_mem_GB": 12.739150047302246
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 32,
+   "impl": "fused Triton",
+   "fwd_ms": 0.9495020402329308,
+   "fwdbwd_ms": 3.6152267893966363,
+   "fwd_mem_GB": 0.5250921249389648,
+   "fwdbwd_mem_GB": 1.0501842498779297
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 64,
+   "impl": "PyG scatter",
+   "fwd_ms": 48.20475196838379,
+   "fwdbwd_ms": 97.22195053100586,
+   "fwd_mem_GB": 18.322265625,
+   "fwdbwd_mem_GB": 25.47987174987793
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 64,
+   "impl": "fused Triton",
+   "fwd_ms": 2.606036911010742,
+   "fwdbwd_ms": 8.25319158463251,
+   "fwd_mem_GB": 1.0501842498779297,
+   "fwdbwd_mem_GB": 2.1003684997558594
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 128,
+   "impl": "PyG scatter",
+   "fwd_ms": 62.107232411702476,
+   "fwdbwd_ms": 125.4571533203125,
+   "fwd_mem_GB": 36.64453125,
+   "fwdbwd_mem_GB": 50.95974349975586
+  },
+  {
+   "graph": "METABRICx4",
+   "N": 4404792,
+   "E": 25614736,
+   "F": 128,
+   "impl": "fused Triton",
+   "fwd_ms": 4.920504796504974,
+   "fwdbwd_ms": 15.858286424116654,
+   "fwd_mem_GB": 2.1003684997558594,
+   "fwdbwd_mem_GB": 4.200736999511719
+  }
+ ],
+ "end_to_end": {
+  "PyG scatter": {
+   "ms_per_step": 49.226276079813644,
+   "peak_GB": 5.47791051864624,
+   "loss_first": 6.07396125793457,
+   "loss_last": 5.291668891906738
+  },
+  "fused Triton": {
+   "ms_per_step": 11.617366472880047,
+   "peak_GB": 2.5744428634643555,
+   "loss_first": 6.0734453201293945,
+   "loss_last": 5.274871826171875
+  }
+ }
+}
